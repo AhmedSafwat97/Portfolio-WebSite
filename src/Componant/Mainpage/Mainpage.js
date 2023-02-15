@@ -1,5 +1,5 @@
-import React from 'react'
-import Carousel from 'react-bootstrap/Carousel'
+import React from "react";
+import Carousel from "react-bootstrap/Carousel";
 
 function Mainpage() {
   return (
@@ -13,15 +13,11 @@ function Mainpage() {
           <div className="info">
             <div className="Card">
               <div className="p-img">
-                <img src="./img/photo.jpg" alt="" />
+                <img src="https://mui.com/static/images/avatar/2.jpg" alt="" />
               </div>
               <h4>Hello, my name is</h4>
-              <h1>
-                Ahmed <span>Safwat Abbas</span>
-              </h1>
-              <h3>
-                <span> | Front-End </span> developer |<h3>| Logo Designer |</h3>
-              </h3>
+              <h1>Lorem ipsum</h1>
+              <h3>Front-End developer</h3>
               <button className="btn btn-success">Download Cv</button>
               <div className="circle1">
                 <div className="c"></div>
@@ -50,11 +46,19 @@ function Mainpage() {
               </div>
               <div className="Text">
                 <h4>About Me</h4>
-                <p>I'm a front-end web developer | React.js</p>
-                <p>i can provied clean and pixel perfect code Design ,</p>
-                <p>makes your website more attractive using Web animation</p>
-                <p>and responsive design creation that makes your website</p>
-                <p>accessible to all users no matter what device they are.</p>
+                <p>
+                  {" "}
+                  LOREM IPSUM GENERATOR Lorem ipsum dolor sit amet, consectetur
+                  adipiscing elit,{" "}
+                </p>
+                  <p>
+                    sed do eiusmod tempor incididunt ut labore et dolore magna
+                    aliqua. Ut enim ad minim{" "}
+                  </p>
+                  <p>
+                  Duis aute irure dolor in reprehenderit in voluptate velit esse
+                  cillum dolore eu fugiat nulla pariatur.
+                </p>
               </div>
             </div>
           </div>
@@ -68,34 +72,40 @@ function Mainpage() {
               <Carousel.Item className="card-mop">
                 <div className="Card-mop">
                   <div className="p-img">
-                    <img src="./img/photo.jpg" alt="" />
+                    <img
+                      src="https://mui.com/static/images/avatar/2.jpg"
+                      alt=""
+                    />
                   </div>
                   <h4>Hello, my name is</h4>
                   <h1>
-                    Ahmed <span>Safwat Abbas</span>
+                    Lorem ipsum
                   </h1>
                   <h3>
-                    <span> | Front-End </span> developer |
-                    <h3>| Logo Designer |</h3>
+                   Front-End developer
                   </h3>
-                  <button className="btn btn-success">Download Cv</button>
+
+                  <button className="btn btn-success">
+                      Download Cv
+                  </button>
                 </div>
               </Carousel.Item>
               <Carousel.Item className="card-mop">
                 <div className="about-mop">
                   <div className="Text-mop">
                     <h4>About Me</h4>
-                    <p>I'm a front-end web developer | React.js</p>
-                    <p>i can provied clean and pixel perfect code Design ,</p>
                     <p>
-                      makes your website more attractive using Web animation
-                    </p>
-                    <p>
-                      and responsive design creation that makes your website
-                    </p>
-                    <p>
-                      accessible to all users no matter what device they are.
-                    </p>
+                  LOREM IPSUM GENERATOR Lorem ipsum dolor sit amet, consectetur
+                  adipiscing elit,{" "}
+                </p>
+                  <p>
+                    sed do eiusmod tempor incididunt ut labore et dolore magna
+                    aliqua. Ut enim ad minim{" "}
+                  </p>
+                  <p>
+                  Duis aute irure dolor in reprehenderit in voluptate velit esse
+                  cillum dolore eu fugiat nulla pariatur.
+                </p>
                   </div>
                 </div>
               </Carousel.Item>
@@ -104,7 +114,7 @@ function Mainpage() {
         </div>
       </div>
     </>
-  )
+  );
 }
 
-export default Mainpage
+export default Mainpage;

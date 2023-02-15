@@ -13,21 +13,20 @@ function Services() {
         </div>
         <div className="cards">
           <div className="s-card">
-            <h2>Front-End</h2>
-            <h2>Developer</h2>
+            <h2>Lorem ipsum</h2>
             <div className="line"></div>
             <div className="b">
               <div className="details">
                 <AiOutlineCheck className="check" />
-                <p>Develop The User Interface</p>
+                <p>Lorem ipsum dolor sit amet</p>
               </div>
               <div className="details">
                 <AiOutlineCheck className="check" />
-                <p>Web Page Development</p>
+                <p>Lorem ipsum dolor sit amet</p>
               </div>
               <div className="details">
                 <AiOutlineCheck className="check" />
-                <p>Design Responsive pages </p>
+                <p>Lorem ipsum dolor sit amet</p>
               </div>
             </div>
             <Link to="/Contact">
@@ -36,21 +35,20 @@ function Services() {
           </div>
 
           <div className="s-card">
-            <h2>React</h2>
-            <h2>Developer</h2>
+            <h2>Lorem ipsum</h2>
             <div className="line"></div>
             <div className="b">
               <div className="details">
                 <AiOutlineCheck className="check" />
-                <p>Create a Single Page WebSite</p>
+                <p>Lorem ipsum dolor sit amet</p>
               </div>
               <div className="details">
                 <AiOutlineCheck className="check" />
-                <p>Work With External API</p>
+                <p>Lorem ipsum dolor sit amet</p>
               </div>
               <div className="details">
                 <AiOutlineCheck className="check" />
-                <p>Design Responsive pages </p>
+                <p>Lorem ipsum dolor sit amet</p>
               </div>
             </div>
             <Link to="/Contact">
@@ -59,13 +57,12 @@ function Services() {
           </div>
 
           <div className="s-card">
-            <h2>Logo</h2>
-            <h2>Design</h2>
+            <h2>Lorem ipsum</h2>
             <div className="line"></div>
             <div className="b">
               <div className="details">
-                <AiOutlineCheck className="check" />
-                <p>Design a Uniqe Logo for your brand </p>
+              <p>Lorem ipsum dolor sit amet</p>                <AiOutlineCheck className="check" />
+
               </div>
             </div>
             <Link to="/Contact">
@@ -79,13 +76,13 @@ function Services() {
         <h2 className="title">Services</h2>
         <div className="line-tt"></div>
         <Carousel>
-          <Carousel.Item className="s-Card">
-            <h2>Front-End Developer</h2>
+          <Carousel.Item className="s-Card" style={{padding:"50px 20px"}}>
+          <h2>Lorem ipsum</h2>
             <div className="line"></div>
             <div className="b">
               <div className="details">
                 <AiOutlineCheck className="check" />
-                <p>Develop The User Interface</p>
+                <p>Lorem ipsum dolor sit amet</p>
               </div>
               <div className="details">
                 <AiOutlineCheck className="check" />
@@ -93,42 +90,42 @@ function Services() {
               </div>
               <div className="details">
                 <AiOutlineCheck className="check" />
-                <p>Design Responsive pages </p>
+                <p>Lorem ipsum dolor sit amet</p>
               </div>
             </div>
             <Link to="/Contact">
               <button className="btn btn-success">Contact Now</button>
             </Link>
           </Carousel.Item>
-          <Carousel.Item className="s-Card">
+          <Carousel.Item className="s-Card" style={{padding:"50px 20px"}}>
             {' '}
-            <h2>React Developer</h2>
+            <h2>Lorem ipsum</h2>
             <div className="line"></div>
             <div className="b">
               <div className="details">
                 <AiOutlineCheck className="check" />
-                <p>Create a Single Page WebSite</p>
+                <p>Lorem ipsum dolor sit amet</p>
               </div>
               <div className="details">
                 <AiOutlineCheck className="check" />
-                <p>Work With External API</p>
+                <p>Lorem ipsum dolor sit amet</p>
               </div>
               <div className="details">
                 <AiOutlineCheck className="check" />
-                <p>Design Responsive pages </p>
+                <p>Lorem ipsum dolor sit amet</p>
               </div>
             </div>
             <Link to="/Contact">
               <button className="btn btn-success">Contact Now</button>
             </Link>{' '}
           </Carousel.Item>
-          <Carousel.Item className="s-Card">
-            <h2>Logo Designs</h2>
+          <Carousel.Item className="s-Card" style={{padding:"50px 20px"}}>
+          <h2>Lorem ipsum</h2>
             <div className="line"></div>
             <div className="b">
               <div className="details">
                 <AiOutlineCheck className="check" />
-                <p>Design a Uniqe Logo for your brand </p>
+                <p>Lorem ipsum dolor sit amet</p>
               </div>
             </div>
             <Link to="/Contact">

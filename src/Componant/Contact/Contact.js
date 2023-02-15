@@ -18,7 +18,7 @@ function Contact() {
             <h3>
               <AiOutlineMail /> Email :
             </h3>
-            <h3>ahmedsfwat69@gmail.com</h3>
+            <h3>Lorem ipsum@gmail.com</h3>
           </div>
           <div className="contact-row">
             <div className="line-c"></div>
@@ -26,7 +26,7 @@ function Contact() {
               <MdCall />
               Phone Number :
             </h3>
-            <h3>+201093600852</h3>
+            <h3>+201000000222</h3>
           </div>
           <div className="contact-row">
             <div className="line-c"></div>
@@ -34,16 +34,16 @@ function Contact() {
               <SiMinutemailer /> Social Media :{' '}
             </h3>
             <div className="Socialm">
-              <a href="http://www.facebook.com">
+              <a>
                 <FaFacebookF style={{ color: 'white' }} />
               </a>
-              <a href="http://twiter.com">
+              <a>
                 <FaTwitter style={{ color: 'white' }} />
               </a>
-              <a href="http://www.instagram.com">
+              <a>
                 <FaInstagram style={{ color: 'white' }} />
               </a>
-              <a href="http://www.instagram.com">
+              <a>
                 <FaBehance style={{ color: 'white' }} />
               </a>
             </div>

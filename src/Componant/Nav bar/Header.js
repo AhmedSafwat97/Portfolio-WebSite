@@ -25,9 +25,6 @@ function Header() {
           <NavLink to="/projects" className="l-p">
             <FaProjectDiagram className="icon" />
           </NavLink>{' '}
-          <NavLink to="/logo" className="l-p">
-            <BiPaint className="icon" />
-          </NavLink>
           <NavLink to="/Contact" className="l-c">
             <MdCall className="icon" />
           </NavLink>
